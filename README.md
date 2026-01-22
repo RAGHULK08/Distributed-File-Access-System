@@ -1,4 +1,4 @@
-# 📁 Distributed File Access System
+<img width="1408" height="768" alt="Gemini_Generated_Image_jbj1lwjbj1lwjbj1" src="https://github.com/user-attachments/assets/7cc3322c-193a-4644-96d8-07421b5d19d0" /># 📁 Distributed File Access System
 🚀 Overview
 A Java-based distributed file system that enables seamless access to student notes stored across multiple departmental servers in a university environment. This system implements a client-server architecture with socket programming, allowing remote file discovery, retrieval, and management.
 
@@ -14,34 +14,6 @@ A Java-based distributed file system that enables seamless access to student not
 📊 Dynamic Registration - Servers can join/leave the network dynamically
 
 🔧 Cross-Platform - Works on Windows, Linux, and macOS
-
-🏗️ System Architecture
-text
-┌─────────────────────────────────────────────────────────────┐
-│                    DISTRIBUTED FILE SYSTEM                  │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ┌─────────────────┐    ┌─────────────────┐                 │
-│  │   CLIENT 1      │    │   CLIENT 2      │    ...          │
-│  └─────────────────┘    └─────────────────┘                 │
-│         │                          │                        │
-│         └──────────────┬───────────┘                        │
-│                        │                                    │
-│                 ┌─────────────┐                             │
-│                 │  INDEX      │  Central Registry           │
-│                 │  SERVER     │  (File Location Service)    │
-│                 └─────────────┘                             │
-│                        │                                    │
-│         ┌──────────────┼──────────────┐                     │
-│         │              │              │                     │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐            │
-│  │  DEPT       │ │  DEPT       │ │  DEPT       │            │
-│  │  SERVER A   │ │  SERVER B   │ │  SERVER C   │  ...       │
-│  │ (Computer   │ │ (Physics    │ │ (Math       │            │
-│  │  Science)   │ │  Dept)      │ │  Dept)      │            │
-│  └─────────────┘ └─────────────┘ └─────────────┘            │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
 
 📦 Components
 1. Index Server (IndexServer.java)
@@ -181,6 +153,7 @@ sudo ufw allow 9090:9093/tcp
 
 # Windows PowerShell (Admin)
 New-NetFirewallRule -DisplayName "DFSPorts" -Direction Inbound -LocalPort 9090-9093 -Protocol TCP -Action Allow
+
 📊 Performance Features
 Connection Pooling - Efficient thread management
 
