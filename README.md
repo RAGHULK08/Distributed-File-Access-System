@@ -1,4 +1,4 @@
-<img width="1408" height="768" alt="Gemini_Generated_Image_jbj1lwjbj1lwjbj1" src="https://github.com/user-attachments/assets/7cc3322c-193a-4644-96d8-07421b5d19d0" /># 📁 Distributed File Access System
+# 📁 Distributed File Access System
 🚀 Overview
 A Java-based distributed file system that enables seamless access to student notes stored across multiple departmental servers in a university environment. This system implements a client-server architecture with socket programming, allowing remote file discovery, retrieval, and management.
 
@@ -14,6 +14,9 @@ A Java-based distributed file system that enables seamless access to student not
 📊 Dynamic Registration - Servers can join/leave the network dynamically
 
 🔧 Cross-Platform - Works on Windows, Linux, and macOS
+
+🏗️ System Architecture
+<img width="1408" height="768" alt="Gemini_Generated_Image_jbj1lwjbj1lwjbj1" src="https://github.com/user-attachments/assets/7cc3322c-193a-4644-96d8-07421b5d19d0" />
 
 📦 Components
 1. Index Server (IndexServer.java)
