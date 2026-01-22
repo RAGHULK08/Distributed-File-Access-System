@@ -16,6 +16,7 @@ A Java-based distributed file system that enables seamless access to student not
 🔧 Cross-Platform - Works on Windows, Linux, and macOS
 
 🏗️ System Architecture
+
 <img width="1408" height="768" alt="Gemini_Generated_Image_jbj1lwjbj1lwjbj1" src="https://github.com/user-attachments/assets/7cc3322c-193a-4644-96d8-07421b5d19d0" />
 
 📦 Components
@@ -157,6 +158,7 @@ sudo ufw allow 9090:9093/tcp
 # Windows PowerShell (Admin)
 New-NetFirewallRule -DisplayName "DFSPorts" -Direction Inbound -LocalPort 9090-9093 -Protocol TCP -Action Allow
 
+
 📊 Performance Features
 Connection Pooling - Efficient thread management
 
@@ -165,6 +167,7 @@ Chunked Transfers - Large file handling capability
 Non-blocking I/O - Responsive during file transfers
 
 Memory Efficient - Stream-based file operations
+
 
 🔮 Future Enhancements
 Planned Features:
@@ -184,6 +187,7 @@ File Versioning - Track changes and revisions
 
 Search Indexing - Full-text search capability
 
+
 Potential Improvements:
 Implement REST API for modern integration
 
@@ -192,6 +196,7 @@ Add Docker containerization for easy deployment
 Develop mobile client applications
 
 Integrate with cloud storage providers
+
 
 🧪 Testing
 Unit Tests
@@ -208,6 +213,7 @@ Test file search, listing, and download operations
 
 Verify concurrent access handling
 
+
 📚 Learning Outcomes
 This project demonstrates:
 
@@ -223,6 +229,7 @@ Network Protocols - Custom application-layer protocol design
 
 Error Handling - Robust network application development
 
+
 👥 Contributing
 Contributions are welcome! Please follow these steps:
 
@@ -236,6 +243,7 @@ Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
+
 Development Guidelines:
 Follow Java coding conventions
 
@@ -245,8 +253,10 @@ Include error handling for all network operations
 
 Test thoroughly before submitting PR
 
+
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 🙏 Acknowledgments
 Inspired by distributed systems concepts
@@ -254,6 +264,7 @@ Inspired by distributed systems concepts
 Built for educational purposes in network programming
 
 Special thanks to Java Socket API documentation
+
 
 📞 Support
 For questions, issues, or contributions:
