@@ -1,4 +1,5 @@
 University Distributed File Access System
+
 A custom distributed file system built with Java Sockets, designed to manage and share files across different university departments. The system uses a centralized indexing architecture where clients locate files via an Index Server and download them directly from the respective Department Servers.
 
 🏗️ System Architecture
